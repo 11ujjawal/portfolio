@@ -4,6 +4,8 @@
     color: $bg-base;
     display: flex;
     align-items: center;
+    outline: 1px solid $bg-base;
+    outline-offset: -40px;
 
     h1 {
         font-family: $hfont;

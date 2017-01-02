@@ -5,9 +5,7 @@ const routes = require('./routes');
 const app = express();
 
 
-app.engine('hbs', hbs.express4({
-    partialsDir: path.join(__dirname, '/views/partials')
-}));
+app.engine('hbs', hbs.express4());
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, '/views'));
 

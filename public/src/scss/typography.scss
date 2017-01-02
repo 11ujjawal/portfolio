@@ -13,9 +13,30 @@ $fs-jumbo-h1: (
     $scr-lg: $fs-jumbo-3
 );
 
+$fs-jumbo-h2: (
+    $scr-xs: $fs-jumbo-8,
+    $scr-sm: $fs-jumbo-7,
+    $scr-md: $fs-jumbo-6,
+    $scr-lg: $fs-jumbo-5
+);
+
 $fs-h3: (
     $scr-xs: $fs-6,
     $scr-sm: $fs-5,
     $scr-md: $fs-4,
     $scr-lg: $fs-3
+);
+
+$fs-h4: (
+    $scr-xs: $fs-6,
+    $scr-sm: $fs-5,
+    $scr-md: $fs-4,
+    $scr-lg: $fs-4
+);
+
+$fs-body: (
+    $scr-xs: $fs-6,
+    $scr-sm: $fs-5,
+    $scr-md: $fs-5,
+    $scr-lg: $fs-5
 );

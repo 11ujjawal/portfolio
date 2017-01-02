@@ -32,12 +32,102 @@
   font-weight: normal; }
 
 /* Font-size maps */
+section h2 {
+  font-family: "SinaNova"; }
+  @media screen and (min-width: 480px) {
+    section h2 {
+      font-size: 40px; } }
+  @media screen and (min-width: 768px) {
+    section h2 {
+      font-size: 48px; } }
+  @media screen and (min-width: 992px) {
+    section h2 {
+      font-size: 56px; } }
+  @media screen and (min-width: 1200px) {
+    section h2 {
+      font-size: 71px; } }
+
+section blockquote {
+  border: 0;
+  font-family: "Roboto-Light"; }
+  @media screen and (min-width: 480px) {
+    section blockquote {
+      font-size: 16px; } }
+  @media screen and (min-width: 768px) {
+    section blockquote {
+      font-size: 20px; } }
+  @media screen and (min-width: 992px) {
+    section blockquote {
+      font-size: 23px; } }
+  @media screen and (min-width: 1200px) {
+    section blockquote {
+      font-size: 28px; } }
+  section blockquote cite {
+    font-style: normal; }
+    @media screen and (min-width: 480px) {
+      section blockquote cite {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      section blockquote cite {
+        font-size: 20px; } }
+    @media screen and (min-width: 992px) {
+      section blockquote cite {
+        font-size: 23px; } }
+    @media screen and (min-width: 1200px) {
+      section blockquote cite {
+        font-size: 23px; } }
+
+section hr {
+  color: #10222B;
+  width: 75vw; }
+
+section section {
+  font-family: "GenBasR"; }
+  @media screen and (min-width: 480px) {
+    section section {
+      font-size: 16px; } }
+  @media screen and (min-width: 768px) {
+    section section {
+      font-size: 20px; } }
+  @media screen and (min-width: 992px) {
+    section section {
+      font-size: 20px; } }
+  @media screen and (min-width: 1200px) {
+    section section {
+      font-size: 20px; } }
+
+#profile img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px; }
+
+#experience {
+  color: #FCFFF5;
+  background-color: #468966; }
+
+#education {
+  background-color: #F6E8B1; }
+
+#skills {
+  background-color: #B8ECD7; }
+
+#projects {
+  background-color: #375D81; }
+
+#hobbies {
+  background-color: #FDE792; }
+
+#contacts {
+  background-color: #2A2C2B; }
+
 .jumbotron {
   min-height: 100vh;
   background-color: #10222B;
   color: #FCFFF5;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  outline: 1px solid #FCFFF5;
+  outline-offset: -40px; }
   .jumbotron h1 {
     font-family: "SinaNova"; }
     @media screen and (min-width: 480px) {

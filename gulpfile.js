@@ -13,6 +13,14 @@ gulp.task('server', () => {
     }, 35729);
 
     server.start();
+
+    gulp.watch([
+        'server/bin/*',
+        'server/*.js',
+        'server/**/*.js'
+    ], () => {
+        server.start();
+    });
 });
 
 gulp.task('styles', () => {
