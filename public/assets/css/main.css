@@ -1,4 +1,8 @@
+.jumbotron {
+  height: 100vh;
+  background-color: #101F30;
+  color: #ffffff; }
+
 h1 {
-    color: red;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  color: blue;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
