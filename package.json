@@ -11,7 +11,13 @@
   "license": "MIT",
   "dependencies": {
     "debug": "^2.6.0",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "express-hbs": "^1.0.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-live-server": "0.0.30",
+    "gulp-sass": "^3.0.0"
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Ujjawal <11.ujjawal@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
