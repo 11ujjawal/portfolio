@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node server/bin/www",
-    "postinstall": "node node_modules/bower/bin/bower install"
+    "postinstall": "bower cache clean && bower install"
   },
   "keywords": [],
   "author": "",
