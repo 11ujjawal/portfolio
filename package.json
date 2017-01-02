@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+      "node": "^4.6.0",
+      "npm": "^2.15.9"
+  },
   "scripts": {
     "start": "node server/bin/www",
     "postinstall": "bower install"
