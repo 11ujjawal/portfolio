@@ -1,0 +1,47 @@
+/** Background Color Codes */
+$bg-base: #FCFFF5;
+$bg-shade-1: #10222B;
+$bg-shade-2: #468966;
+$bg-shade-3: #FDE792;
+$bg-shade-4: #B8ECD7;	//Resume
+$bg-shade-5: #D9CB9E;	//Resume
+$bg-shade-6: #2A2C2B;	//Resume
+$bg-shade-7: #375D81;	//Me
+$bg-shade-8: #B0CC99;	//Me
+$bg-shade-9: #F6E8B1;	//Me
+
+$scr-height: 100vh;
+$scr-width: 100vw;
+
+/** Font family */
+$font-path: "../fonts/";
+$hfont: "SinaNova";
+$bfont-light: "Roboto-Light";
+$bfont-dark: "Roboto-Black";
+$bfont-cursive-light: "GenBasR";
+$bfont-cursive-dark: "GenBasB";
+
+$fs-base: 16px;
+
+$fs-jumbo-1: ceil(($fs-base * 10));
+$fs-jumbo-2: ceil(($fs-base * 7));
+$fs-jumbo-3: ceil(($fs-base * 6));
+$fs-jumbo-4: ceil(($fs-base * 5));
+$fs-jumbo-5: ceil(($fs-base * 4.4));
+$fs-jumbo-6: ceil(($fs-base * 3.5));
+$fs-jumbo-7: ceil(($fs-base * 3));
+$fs-jumbo-8: ceil(($fs-base * 2.5));
+$fs-jumbo-9: ceil(($fs-base * 2.1));
+$fs-jumbo-10: ceil(($fs-base * 1.7));
+
+$fs-1: floor(($fs-base * 2.6)); // ~36px
+$fs-2: floor(($fs-base * 2.15)); // ~30px
+$fs-3: ceil(($fs-base * 1.7)); // ~24px
+$fs-4: ceil(($fs-base * 1.4)); // ~18px
+$fs-5: ceil(($fs-base * 1.25)); // ~18px
+$fs-6: ceil(($fs-base * 1)); // ~12px
+
+$scr-xs: 480px;
+$scr-sm: 768px;
+$scr-md: 992px;
+$scr-lg: 1200px;

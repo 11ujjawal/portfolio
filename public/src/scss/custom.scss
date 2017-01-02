@@ -1,5 +1,22 @@
 .jumbotron {
-    height: $full-scr-ht;
-    background-color: $bg-color-one;
-    color: #ffffff;
+    min-height: $scr-height;
+    background-color: $bg-shade-1;
+    color: $bg-base;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        font-family: $hfont;
+        @include font-size($fs-jumbo-h1);
+    }
+
+    hr {
+        width: $scr-width / 4;
+    }
+
+    h3 {
+        font-family: $bfont-cursive-light;
+        @include font-size($fs-h3);
+
+    }
 }

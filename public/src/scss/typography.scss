@@ -1,0 +1,21 @@
+
+@include font-face($hfont, $font-path);
+@include font-face($bfont-light, $font-path);
+@include font-face($bfont-dark, $font-path);
+@include font-face($bfont-cursive-light, $font-path);
+@include font-face($bfont-cursive-dark, $font-path);
+
+/* Font-size maps */
+$fs-jumbo-h1: (
+    $scr-xs: $fs-jumbo-6,
+    $scr-sm: $fs-jumbo-5,
+    $scr-md: $fs-jumbo-4,
+    $scr-lg: $fs-jumbo-3
+);
+
+$fs-h3: (
+    $scr-xs: $fs-6,
+    $scr-sm: $fs-5,
+    $scr-md: $fs-4,
+    $scr-lg: $fs-3
+);

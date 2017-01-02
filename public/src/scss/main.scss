@@ -1,7 +1,5 @@
+@import "variable.scss";
+@import "mixin.scss";
 @import "layout.scss";
+@import "typography.scss";
 @import "custom.scss";
-
-h1 {
-    color: blue;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
