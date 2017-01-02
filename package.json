@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server/bin/www"
+    "start": "node server/bin/www",
+    "postinstall": "bower install"
   },
   "keywords": [],
   "author": "",
