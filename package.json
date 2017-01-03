@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "engines": {
-      "node": "^4.6.0",
-      "npm": "^2.15.9"
+    "node": "^4.6.0",
+    "npm": "^2.15.9"
   },
   "scripts": {
     "start": "node server/bin/www",
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-cssmin": "^0.1.7",
+    "gulp-clean-css": "^2.3.2",
     "gulp-live-server": "0.0.30",
     "gulp-sass": "^3.0.0"
   }

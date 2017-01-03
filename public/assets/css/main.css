@@ -55,7 +55,7 @@ section blockquote {
       font-size: 16px; } }
   @media screen and (min-width: 768px) {
     section blockquote {
-      font-size: 20px; } }
+      font-size: 19px; } }
   @media screen and (min-width: 992px) {
     section blockquote {
       font-size: 23px; } }
@@ -69,7 +69,7 @@ section blockquote {
         font-size: 16px; } }
     @media screen and (min-width: 768px) {
       section blockquote cite {
-        font-size: 20px; } }
+        font-size: 19px; } }
     @media screen and (min-width: 992px) {
       section blockquote cite {
         font-size: 23px; } }
@@ -88,13 +88,16 @@ section section {
       font-size: 16px; } }
   @media screen and (min-width: 768px) {
     section section {
-      font-size: 20px; } }
+      font-size: 19px; } }
   @media screen and (min-width: 992px) {
     section section {
-      font-size: 20px; } }
+      font-size: 19px; } }
   @media screen and (min-width: 1200px) {
     section section {
-      font-size: 20px; } }
+      font-size: 19px; } }
+
+section time {
+  font-family: "Roboto-Light"; }
 
 #profile img {
   height: 100px;
@@ -104,20 +107,26 @@ section section {
 #experience {
   color: #FCFFF5;
   background-color: #468966; }
+  #experience h5 {
+    color: #FDE792; }
 
 #education {
   background-color: #F6E8B1; }
+  #education h5 {
+    color: #375D81; }
 
 #skills {
   background-color: #B8ECD7; }
 
 #projects {
+  color: #FCFFF5;
   background-color: #375D81; }
 
 #hobbies {
   background-color: #FDE792; }
 
 #contacts {
+  color: #FCFFF5;
   background-color: #2A2C2B; }
 
 .jumbotron {
@@ -151,10 +160,13 @@ section section {
         font-size: 16px; } }
     @media screen and (min-width: 768px) {
       .jumbotron h3 {
-        font-size: 20px; } }
+        font-size: 19px; } }
     @media screen and (min-width: 992px) {
       .jumbotron h3 {
         font-size: 23px; } }
     @media screen and (min-width: 1200px) {
       .jumbotron h3 {
         font-size: 28px; } }
+
+.fa {
+  color: #FCFFF5; }

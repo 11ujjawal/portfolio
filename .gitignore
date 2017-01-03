@@ -49,3 +49,5 @@ jspm_packages
 
 # Heroku env
 .env
+
+Thumbs.db

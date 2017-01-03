@@ -2,7 +2,7 @@
 
 const gulp = require('gulp');
 const sass = require('gulp-sass');
-const cssmin = require('gulp-cssmin');
+const cssmin = require('gulp-clean-css');
 const gls = require('gulp-live-server');
 
 gulp.task('server', () => {

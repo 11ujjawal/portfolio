@@ -24,6 +24,10 @@ section {
         font-family: $bfont-cursive-light;
         @include font-size($fs-body);
     }
+
+    time {
+        font-family: $bfont-light;
+    }
 }
 
 #profile {
@@ -32,33 +36,41 @@ section {
         width: 100px;
         border-radius: 100px;
     }
+
+    ul {}
 }
 
 #experience {
     color: $bg-base;
     background-color: $bg-shade-2;
+
+    h5 {
+        color: $bg-shade-3;
+    }
 }
 
 #education {
     background-color: $bg-shade-9;
+
+    h5 {
+        color: $bg-shade-7;
+    }
 }
 
 #skills {
     background-color: $bg-shade-4;
-
 }
 
 #projects {
+    color: $bg-base;
     background-color: $bg-shade-7;
-
 }
 
 #hobbies {
     background-color: $bg-shade-3;
-
 }
 
 #contacts {
+    color: $bg-base;
     background-color: $bg-shade-6;
-
 }
