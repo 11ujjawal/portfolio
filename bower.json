@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "description": "A personal portfolio web page.",
+  "repository": "https://github.com/11Ujjawal/portfolio",
   "main": "server.js",
   "authors": [
     "Ujjawal <11.ujjawal@gmail.com>"

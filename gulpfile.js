@@ -6,7 +6,7 @@ const cssmin = require('gulp-clean-css');
 const gls = require('gulp-live-server');
 
 gulp.task('server', () => {
-    let server = gls('server/bin/www', {
+    let server = gls('bin/www', {
         env: {
             NODE_ENV: 'development'
         }
@@ -15,9 +15,9 @@ gulp.task('server', () => {
     server.start();
 
     gulp.watch([
-        'server/bin/*',
-        'server/*.js',
-        'server/**/*.js'
+        'bin/*',
+        'server.js',
+        '/routes/*.js'
     ], () => {
         server.start();
     });

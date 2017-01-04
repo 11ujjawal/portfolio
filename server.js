@@ -1,10 +1,12 @@
 const express = require('express');
 const hbs = require('express-hbs');
+const compress = require('compression');
 const path = require('path');
 const routes = require('./routes');
 const app = express();
 
 
+app.use(compress());
 app.engine('hbs', hbs.express4());
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
