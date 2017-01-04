@@ -1,5 +1,9 @@
 const express = require('express');
+const path = require('path');
+const fs = require('fs');
+
 const router = express.Router();
+const skill = JSON.parse(fs.readFileSync(path.join(__dirname, '../views/skill.json')));
 
 router.get('/error/500', (req, res, next) => {
     res.render('error', {
@@ -14,7 +18,8 @@ router.get('/error/500', (req, res, next) => {
 
 router.get('/', (req, res, next) => {
     res.render('index', {
-        title: "Ujjawal | Web Portfolio"
+        title: "Ujjawal | Web Portfolio",
+        skill: skill
     });
 });
 

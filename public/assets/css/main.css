@@ -117,10 +117,36 @@ section time {
 
 #skills {
   background-color: #B8ECD7; }
+  #skills section ul li {
+    color: #FCFFF5;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #10222B; }
 
 #projects {
   color: #FCFFF5;
   background-color: #375D81; }
+  #projects section {
+    display: flex;
+    flex-wrap: wrap; }
+  #projects .proj {
+    border: 2px solid #FCFFF5;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 2.5em;
+    transition: all 0.8s linear; }
+    #projects .proj .fa {
+      transition: color 1s linear; }
+    #projects .proj code {
+      transition: border 1s linear; }
+    #projects .proj:hover {
+      color: #10222B;
+      background-color: #FCFFF5; }
+      #projects .proj:hover .fa {
+        color: #10222B; }
+      #projects .proj:hover code {
+        border: 1px solid #10222B; }
 
 #hobbies {
   background-color: #FDE792; }
@@ -128,6 +154,16 @@ section time {
 #contacts {
   color: #FCFFF5;
   background-color: #2A2C2B; }
+
+footer {
+  font-family: "Roboto-Light";
+  word-spacing: 0.5em; }
+
+.extlink {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 1%; }
 
 .jumbotron {
   min-height: 100vh;

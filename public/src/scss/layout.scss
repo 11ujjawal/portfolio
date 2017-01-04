@@ -36,8 +36,6 @@ section {
         width: 100px;
         border-radius: 100px;
     }
-
-    ul {}
 }
 
 #experience {
@@ -59,11 +57,52 @@ section {
 
 #skills {
     background-color: $bg-shade-4;
+
+    section ul li {
+        color: $bg-base;
+        padding: 5px 10px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: $bg-shade-1;
+    }
 }
 
 #projects {
     color: $bg-base;
     background-color: $bg-shade-7;
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .proj {
+        border: 2px solid $bg-base;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 2.5em;
+        transition: all 0.8s linear;
+
+        .fa {
+            transition: color 1s linear;
+        }
+        code {
+            transition: border 1s linear;
+        }
+
+        &:hover {
+            color: $bg-shade-1;
+            background-color: $bg-base;
+
+            .fa {
+                color: $bg-shade-1;
+            }
+
+            code {
+                border: 1px solid $bg-shade-1;
+            }
+        }
+    }
 }
 
 #hobbies {
@@ -73,4 +112,16 @@ section {
 #contacts {
     color: $bg-base;
     background-color: $bg-shade-6;
+}
+
+footer {
+    font-family: $bfont-light;
+    word-spacing: 0.5em;
+}
+
+.extlink {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 1%;
 }

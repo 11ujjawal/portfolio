@@ -17,7 +17,7 @@ gulp.task('server', () => {
     gulp.watch([
         'bin/*',
         'server.js',
-        '/routes/*.js'
+        'routes/*.js'
     ], () => {
         server.start();
     });
