@@ -1,12 +1,12 @@
 {
   "name": "portfolio",
-  "description": "",
+  "description": "A personal portfolio web page.",
   "main": "server.js",
   "authors": [
     "Ujjawal <11.ujjawal@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://personal-web-portfolio.herokuapp.com/",
   "ignore": [
     "**/.*",
     "node_modules",

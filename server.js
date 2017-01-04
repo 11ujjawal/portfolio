@@ -7,10 +7,10 @@ const app = express();
 
 app.engine('hbs', hbs.express4());
 app.set('view engine', 'hbs');
-app.set('views', path.join(__dirname, '/views'));
+app.set('views', path.join(__dirname, 'views'));
 
-app.use(express.static(path.join(__dirname, '../public')));
-app.use('/vendors', express.static(path.join(__dirname, '../bower_components')));
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/vendors', express.static(path.join(__dirname, 'bower_components')));
 
 app.use('/', routes);
 

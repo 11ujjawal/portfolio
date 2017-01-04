@@ -1,18 +1,18 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.2.0",
+  "description": "A personal portfolio web page.",
   "main": "server.js",
   "engines": {
     "node": "^4.6.0",
     "npm": "^2.15.9"
   },
   "scripts": {
-    "start": "node server/bin/www",
+    "start": "node bin/www",
     "postinstall": "bower cache clean && bower install"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Portfolio", "Software Engineer", "NodeJS", "Express", "SASS", "Personal WebPage"],
+  "author": "Ujjawal",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.2",
